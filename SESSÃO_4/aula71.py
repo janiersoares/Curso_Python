@@ -18,8 +18,22 @@ def soma(x, y):
 def soma(*args):
     total = 0
     for numero in args:
-        print('Total', total, numero)
         total += numero
-        print('Total', total)
-    print(total)
-soma(1, 2, 3, 4, 5, 6)
+    return total
+        
+
+soma_1 = soma(1, 2, 3)
+print(soma_1)
+
+soma_2 = soma(40, 50, 60)
+print(soma_2)
+ 
+soma_3 = soma(2, 3, 4, 4, 8, 8, 4, 84, 85, 4)
+print(soma_3)
+
+numeros = 2, 3, 4, 4, 8, 8, 4, 84, 85, 4
+
+outra_soma = soma(*numeros)
+
+print(outra_soma)
+print(sum(numeros))
