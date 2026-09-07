@@ -37,5 +37,6 @@ def e_par(numero):
 produto = multiplica(1, 2, 3, 4, 5)
 resultado_par = e_par(produto)
 
+
 print(f'O produto é: {produto}')
 print(f'É par? {resultado_par}')
