@@ -6,8 +6,8 @@ Retorno de valores das funções (return)
 def soma(x, y):
     if x > 10:
         return [10, 20]
-    else:
-        return x + y
+    
+    return x + y
 
 
 '''variavel = soma(1, 2)
