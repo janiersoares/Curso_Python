@@ -27,3 +27,30 @@ Pratique:
 - Manipulação de strings com .upper()
 - Múltiplos parâmetros de tipos diferentes na segunda função
 """
+
+def calcula_total_compras(*args):
+    total = sum(args)
+    if total >= 200.0:
+        total = total * 0.9
+    return total
+
+def calcula_frete(valor_total, regiao):
+    if valor_total >= 150.0:
+        return 0.0
+    
+    regiao_formatada = regiao.upper()
+    if regiao_formatada == "SUDESTE" or regiao_formatada == "SUL":
+        return 15.0
+    else:
+        return 30.0
+
+# 1. Calcula o total da compra passando os valores dos produtos
+total_compra = calcula_total_compras(50.0, 80.0, 90.0)
+
+# 2. Calcula o frete usando o total da compra obtido e a região
+valor_frete = calcula_frete(total_compra, "sul")
+
+# 3. Exibe os resultados formatados
+print(f"Total da compra (com desconto): {total_compra:.2f}")
+print(f"Valor do frete: {valor_frete:.2f}")
+print(f"Valor final a pagar: {total_compra + valor_frete:.2f}")
