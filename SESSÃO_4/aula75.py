@@ -6,7 +6,7 @@ Exercícios
 Crie funções que duplicam, triplicam e quadruplicam
 o número recebido como parâmetro
 '''
-
+# COMO O PROFESSOR FEZ
 def criar_multiplicador(multiplicador):
     def multiplicar(numero):
         return numero * multiplicador
@@ -21,7 +21,7 @@ print(triplicar(2))
 print(quadruplicar(2))
 
 
-
+# COMO EU FIZ
 def duplica(numero):
     resultado = numero * 2
     return resultado
