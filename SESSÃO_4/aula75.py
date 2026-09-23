@@ -19,12 +19,3 @@ quadruplicar = criar_multiplicador(4)
 print(duplicar(2))
 print(triplicar(2))
 print(quadruplicar(2))
-
-
-# COMO EU FIZ
-def duplica(numero):
-    resultado = numero * 2
-    return resultado
-
-total_1 = duplica(3)
-print(total_1)
