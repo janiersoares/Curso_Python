@@ -29,3 +29,8 @@ def par_impar(x):
 numero = par_impar(resultado)
 
 print(numero)
+
+print(par_impar(1))
+print(par_impar(4))
+print(par_impar(49))
+print(par_impar(1658))
