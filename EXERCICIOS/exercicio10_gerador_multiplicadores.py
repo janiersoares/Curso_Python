@@ -27,5 +27,7 @@ def criar_multiplicador(multiplicador):
 duplicar = criar_multiplicador(2)
 triplicar = criar_multiplicador(3)
 
-print(duplicar(10))
-print(triplicar(10))
+numero = int(input('Digite um numero: '))
+
+print(f'O dobro de {numero} é {duplicar(numero)}.')
+print(f'O triplo de {numero} é {triplicar(numero)}.')
