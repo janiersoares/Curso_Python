@@ -12,6 +12,9 @@ def criar_saudacao(saudacao):
 falar_bom_dia = criar_saudacao('Bom Dia')
 falar_boa_noite = criar_saudacao('Boa Noite')
 
-for nome in  ['Janier', 'Marceli', 'Pandora', 'Heros', 'Sol']:
+for nome in  ['Janier', 'Marceli']:
     print(falar_bom_dia(nome))
-    
+    print(falar_boa_noite(nome))
+
+
+print(falar_boa_noite('Aline'))
