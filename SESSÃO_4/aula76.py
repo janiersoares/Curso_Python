@@ -27,5 +27,9 @@ pessoa = {
 
 }
 # print(pessoa, type(pessoa))
+print(pessoa['sobrenome'])
+
+print(40 * '=')
+
 for chave in pessoa:
     print(chave, pessoa[chave])
