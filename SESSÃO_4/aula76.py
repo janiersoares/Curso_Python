@@ -7,7 +7,7 @@ Dicionarios são estruturas de dados tipo par de "chave" e "valor".
 Chaves podem ser consideradas como o "índice" que vimos na lista
 e podem ser tipos imutaveis como: str, int, float, bool, tuple, etc.
 
-O valor pode ser de qyalquer tipo, incluindo outro dicionario.
+O valor pode ser de qalquer tipo, incluindo outro dicionario.
 
 Usamos as chaves - {} - ou a classe dict para criar dicionarios.
 
