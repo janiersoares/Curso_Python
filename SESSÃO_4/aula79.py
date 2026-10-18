@@ -1,5 +1,4 @@
 # AULA 79
-# AULA 79
 
 '''
 Métodos uteis dos dicionarios em Python
