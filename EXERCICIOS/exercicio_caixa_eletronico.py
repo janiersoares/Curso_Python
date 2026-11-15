@@ -34,12 +34,12 @@ Pratique:
 import time
 
 print('### CAIXA ELETRONICO ###')
-nome = input(f'Digite seu nome: ')
-senha = input(f'Digite sua senha: ')
+nome = input('Digite seu nome: ')
+senha = input('Digite sua senha: ')
 
 
 if senha == '12345':
-    operacao = input(f'Realizar um saque ou um deposito? ')
+    operacao = input('Realizar um saque ou um deposito? ')
     if (operacao == 'sacar' or operacao == 'Sacar'):
         realizar_saque = float(input('Qual valor deseja sacar? '))
         if realizar_saque <= 500 and realizar_saque > 0:
@@ -47,41 +47,41 @@ if senha == '12345':
             print(f'Saque de R${realizar_saque:,.2f} relizado com sucesso!')
         else:
             time.sleep(1)
-            print(f'Saldo insuficiente!')
+            print('Saldo insuficiente!')
     elif (operacao == 'depositar' or operacao == 'Depositar'):
-        realizar_deposito = float(input(f'Quanto deseja depositar? '))
+        realizar_deposito = float(input('Quanto deseja depositar? '))
         if realizar_deposito > 0:
             time.sleep(1)
-            print(f'Deposito de R${realizar_deposito:,.2f} realizado!')
+            print('Deposito de R${realizar_deposito:,.2f} realizado!')
         else:
             time.sleep(1)
-            print(f'Deposito negado.')
+            print('Deposito negado.')
 
 elif not senha:
-    digite_senha = input(f'Você precisa digitar sua senha: ')
+    digite_senha = input('Você precisa digitar sua senha: ')
     if digite_senha == '12345':
-        operacao = input(f'Realizar um saque ou um deposito? ')
+        operacao = input('Realizar um saque ou um deposito? ')
         if operacao == 'sacar' or operacao == 'Sacar':
-            realizar_saque = float(input(f'Qual valor deseja sacar? '))
+            realizar_saque = float(input('Qual valor deseja sacar? '))
             if realizar_saque <= 500 and realizar_saque > 0:
                 time.sleep(1)
-                print(f'Saque de R${realizar_saque:,.2f} realizado com sucesso!')
+                print('Saque de R${realizar_saque:,.2f} realizado com sucesso!')
             else:
                 time.sleep(1)
-                print(f'Saldo insuficiente!')
+                print('Saldo insuficiente!')
         elif operacao == 'depositar' or operacao == 'Depositar':
-            realizar_deposito = float(input(f'Quanto deseja depositar? '))
+            realizar_deposito = float(input('Quanto deseja depositar? '))
             if realizar_deposito > 0:
                 time.sleep(1)
-                print(f'Deposito de R${realizar_deposito:,.2f} realizado!')
+                print('Deposito de R${realizar_deposito:,.2f} realizado!')
             else:
                 time.sleep(1)
-                print(f'Deposito negado.')
+                print('Deposito negado.')
     elif digite_senha != '12345':
         time.sleep(1)
-        print(f'Senha incorreta!')
+        print('Senha incorreta!')
 
 
 elif senha != '12345':
     time.sleep(1)
-    print(f'Senha incorreta!')
+    print('Senha incorreta!')

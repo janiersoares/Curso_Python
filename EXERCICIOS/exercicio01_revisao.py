@@ -30,5 +30,5 @@ try:
     else:
         print('Você é menor de idade')
 
-except:
+except ValueError:
     print('Digite apenas números.')

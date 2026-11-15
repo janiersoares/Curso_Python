@@ -36,13 +36,13 @@ Pratique:
 - not
 - f-string
 '''
-nome = input(f'Digite seu nome: ')
+nome = input('Digite seu nome: ')
 
 while not nome:
-    print(f'digite um nome válido: ')
-    nome = input(f'Digite deu nome: ')
+    print('digite um nome válido: ')
+    nome = input('Digite deu nome: ')
 try:
-    idade = int(input(f'Qual sua idade? '))
+    idade = int(input('Qual sua idade? '))
     if idade >= 18:
         print(f'{nome}, você é maior de idade.')
     elif idade< 18:
@@ -51,6 +51,6 @@ try:
         print(f'{nome}, seu nome contém espaços.')
     else:
         print(f'{nome}, seu nome não contém espaços.')
-    print(f'Cadastro finalizado.')
-except:
-    print(f'Digite apenas números.')
+    print('Cadastro finalizado.')
+except ValueError:
+    print('Digite apenas números.')

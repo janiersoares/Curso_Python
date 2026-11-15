@@ -14,10 +14,10 @@ Pratique:
 - input()
 - Comparação de strings
 '''
-nome = input(f'Digite seu nome: ')
+nome = input('Digite seu nome: ')
 
 while nome != 'sair':
     print(f'Olá, {nome}')
-    nome = input(f'Digite seu nome: ')
+    nome = input('Digite seu nome: ')
     
-print(f'Até a próxima.')
+print('Até a próxima.')

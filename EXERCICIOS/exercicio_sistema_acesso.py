@@ -27,12 +27,12 @@ senha = input('Qual sua senha? ')
 
 if not senha:
     time.sleep(1)
-    print(f'Você precisa digitar uma senha.')
+    print('Você precisa digitar uma senha.')
 
 elif (entrar == 'E' or entrar == 'e') and senha == 'python123':
     time.sleep(1)
-    print(f'Bem vindo ao sistema!')
+    print('Bem vindo ao sistema!')
 
 else:
     time.sleep(1)
-    print(f'Acesso negado!')
+    print('Acesso negado!')

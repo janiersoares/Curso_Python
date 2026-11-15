@@ -15,7 +15,7 @@ Pratique:
 - Operadores de comparação
 - break (opcional)
 '''
-continuar = input(f'Deseja continuar? ')
+continuar = input('Deseja continuar? ')
 
 while continuar != 'sair':
     print('Programa em execução.')
