@@ -20,6 +20,7 @@ Pratique:
 - time.sleep()
 '''
 import time
+
 print('### SISTEMA DE ACESSO ###')
 
 entrar = input('Deseja entrar ou Sair? ')
