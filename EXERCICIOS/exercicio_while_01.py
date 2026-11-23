@@ -13,4 +13,4 @@ while contador < 5:
     contador += 1
     print(contador)
 
-print(f'Fim de contagem.')
+print('Fim de contagem.')
