@@ -30,5 +30,6 @@
     "editor.tabCompletion": "on",
     "editor.acceptSuggestionOnEnter": "on",
     "editor.wordBasedSuggestions": "off",
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "python.analysis.autoImportCompletions": true
 }
